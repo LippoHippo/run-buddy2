@@ -1,15 +1,18 @@
-.header
+/* css comments*/
+body 
 {
-    background-color:skyblue ;
-    color:yellow
+    font-family: Arial, Helvetica, sans-serif;
+    color: #39a6b2;
+}
+
+header
+{
+    padding: 20px 35px;
+    background-color: #39a6b2;
 }
 
 .footer
 {
-    background-color: yellow;color:skyblue;
+    background-color: yellow;
 }
 
-h2
-{
-    color:skyblue;
-}

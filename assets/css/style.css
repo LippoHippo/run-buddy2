@@ -1,7 +1,11 @@
 /* css comments*/
+*{
+    margin: 0;
+    padding: 0;
+}
 body 
 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     color: #39a6b2;
 }
 
@@ -11,8 +15,39 @@ header
     background-color: #39a6b2;
 }
 
-.footer
+header h1
 {
-    background-color: yellow;
+    color: #fce138;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    display: inline;
 }
+
+header a
+{
+    text-decoration: none;
+    color: #fce138;
+}
+
+header nav
+{
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li
+{
+    display: inline;
+}
+
+header nav ul li a 
+{
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+
+
 

@@ -1,23 +1,43 @@
 /* css comments*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body 
-{
+
+body {
     font-family: Helvetica, Arial, sans-serif;
     color: #39a6b2;
 }
 
-header
-{
+section {
+    padding: 60px;
+}
+
+.hero {
+  background-image: url("../images/hero-bg-run-buddy.jpg");
+  background-size: cover;
+  background-position: center;  
+  height: 600px;
+}
+
+.hero-form {
+    
+    color: #024e76;
+    background-color: #fce138;
+    width: 500px;
+    padding: 20px;
+
+    border: #024376 3px solid;
+    
+}
+
+header {
     padding: 20px 35px;
     background-color: #39a6b2;
 }
 
-header h1
-{
+header h1 {
     color: #fce138;
     font-weight: bold;
     font-size: 36px;
@@ -25,55 +45,47 @@ header h1
     display: inline;
 }
 
-header a
-{
+header a {
     text-decoration: none;
     color: #fce138;
 }
 
-header nav
-{
+header nav {
     float: right;
     margin: 7px 0;
 }
 
-header nav ul li
-{
+header nav ul li {
     display: inline;
 }
 
-header nav ul li a 
-{
+header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
 }
 
 
-footer 
-{
+footer {
     background-color: #fce138;
     width: 100%;
     padding: 40px 35px;
     
 }
 
-footer h2
-{
+footer h2 {
     display: inline;
     color: #024e76;
     font-size: 30px;
     margin: 0;
 }
 
-footer div
-{
+footer div {
     float: right;
     line-height: 1.5;
     text-align: right;
 }
 
-footer a 
-{
+footer a {
     color: #024e76;
 }

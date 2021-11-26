@@ -14,6 +14,7 @@ section {
     padding: 60px;
 }
 
+/* HERO STYLES */
 .hero {
   background-image: url("../images/hero-bg-run-buddy.jpg");
   background-size: cover;
@@ -32,10 +33,39 @@ section {
     position: absolute;
     bottom: 120px;
     right: 140px;
-  
-
     
 }
+
+.hero-form h3 {
+    font-size: 25px;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.hero-form label {
+    margin: 0 5px;
+}
+
+.form-input {
+   border: 1px solid #024e76;
+   display: block;
+   padding: 7px 15px;
+   font-size: 16px;
+   color: #024e76;
+   width: 100%;
+   margin-bottom: 15px;
+}
+
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+/*HERO STYLES END */
 
 header {
     padding: 20px 35px;

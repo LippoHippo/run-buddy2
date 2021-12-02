@@ -20,17 +20,6 @@ section {
     padding: 0 100px 20px 100px;
     display: inline-block;
     border-bottom: 3px solid;
-  }
-.map-section-title {
-    font-size: 55px;
-    color: #fce138;
-    background-color: #024e76;
-    border-color: #39a6b2;
-    border-bottom: 3px solid;
-    display: inline-block;
-    margin-bottom: 10px;
-    padding: 0 auto 20px;
-    
 }
 .primary-border {
     border-color: #fce138;
@@ -198,8 +187,13 @@ header nav ul li a {
 /* TRAINERS END */
 
 /* REACH OUT */
-.reaching-out {
+
+.contact {
     text-align: center;
+    background: #024e76
+}
+.contact h2 {
+    color: #fce138;
 }
 
 /* REACH OUT END */

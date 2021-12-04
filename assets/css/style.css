@@ -153,10 +153,26 @@ header nav ul li a {
     align-items: center;
     justify-content: space-between;
 }
+.step-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+.step-img img {
+    max-width: 100%;
+}
 .step h3 {
     color: #024e76;
     font-size: 46px;
     flex: 1 30%;
+}
+.step-text {
+    flex: 12;
 }
 .step-text p {
     color: #39a6b2;
@@ -167,9 +183,7 @@ header nav ul li a {
     line-height: 1.5;
     color: #024e76;
 }
-.step-info {
-    flex: 2 70%;
-}
+
 /* WHAT WE DO STYLE END */
 
 /* TRAINERS */

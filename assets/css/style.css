@@ -27,10 +27,38 @@ section {
 .secondary-border {
     border-color: #39a6b2;
 }
-
+/* HEADER */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+header h1 {
+    color: #fce138;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    display: inline;
+}
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+/* HEADER END */
 /* HERO STYLES */
 .hero {
-  background-image: url("../images/hero-bg-run-buddy.jpg");
+  background-image: url("../images/hero-bg.jpg");
   background-size: cover;
   background-position: center;  
   height: 600px;
@@ -75,35 +103,7 @@ section {
 }
 /* HERO STYLES END */
 
-/* HEADER */
-header {
-    padding: 20px 35px;
-    background-color: #39a6b2;
-}
-header h1 {
-    color: #fce138;
-    font-weight: bold;
-    font-size: 36px;
-    margin: 0;
-    display: inline;
-}
-header a {
-    text-decoration: none;
-    color: #fce138;
-}
-header nav {
-    float: right;
-    margin: 7px 0;
-}
-header nav ul li {
-    display: inline;
-}
-header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 22px;
-}
-/* HEADER END */
+
 
 /* WHAT YOU DO */
 .intro {
